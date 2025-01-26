@@ -33,18 +33,22 @@ A simple .NET Web API for managing books.
 #### Installation
 1. Clone the repository:
    ``` bash
-   git clone https://github.com/amxrac/booksapi.git```
+   git clone https://github.com/amxrac/booksapi.git
+   ```
 2. Update the connection string in appsettings.json:
    ```json
    "ConnectionStrings": {
     "BooksDB": "Data Source=localhost;Initial Catalog=BooksDB;Integrated Security=True;"
-    }```
+    }
+   ```
 3. Run migrations:
    ```bash
-   dotnet ef database update  ```
+   dotnet ef database update
+     ```
 4. Start the API:
    ```bash
-   dotnet run     ```
+   dotnet run
+    ```
 
 
 ## API Endpoints
